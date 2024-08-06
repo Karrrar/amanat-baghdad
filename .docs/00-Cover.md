@@ -50,6 +50,27 @@
     - [Display and Position](03-css.md#display-and-position)
     - [Flexbox](03-css.md#flexbox)
   - [Example CSS](03-css.md#example-css)
+- [Introduction to Tailwind CSS](04-tailwind.md#introduction-to-tailwind-css)
+  - [What is Tailwind CSS?](04-tailwind.md#what-is-tailwind-css)
+  - [Benefits of Tailwind CSS](04-tailwind.md#benefits-of-tailwind-css)
+  - [Installing Tailwind CSS](04-tailwind.md#installing-tailwind-css)
+    - [Using npm](04-tailwind.md#using-npm)
+    - [Using CDN](04-tailwind.md#using-cdn)
+  - [Using Tailwind CSS](04-tailwind.md#using-tailwind-css)
+    - [Text and Background Colors](04-tailwind.md#text-and-background-colors)
+    - [Padding and Margin](04-tailwind.md#padding-and-margin)
+    - [Flexbox](04-tailwind.md#flexbox)
+    - [Responsive Design](04-tailwind.md#responsive-design)
+  - [Example: Building a Simple Page with Tailwind CSS](04-tailwind.md#example-building-a-simple-page-with-tailwind-css)
+    - [General Classes](04-tailwind.md#general-classes)
+    - [Header Classes](04-tailwind.md#header-classes)
+    - [Main Content Classes](#main-content-classes)
+    - [Section Classes](#section-classes)
+    - [List Classes](04-tailwind.md#list-classes)
+    - [Definition List Classes](04-tailwind.md#definition-list-classes)
+    - [Image Classes](04-tailwind.md#image-classes)
+    - [Form Classes](04-tailwind.md#form-classes)
+    - [Footer Classes](04-tailwind.md#footer-classes)
 
 ---
 
@@ -57,3 +78,4 @@
 | -------- | ------- | -------------------------- |
 | 3/7/2024 | v0.1    | Add Cover and installation |
 | 3/7/2024 | v0.2    | Add HTML and CSS           |
+| 7/7/2024 | v0.3    | Add Tailwind CSS           |
