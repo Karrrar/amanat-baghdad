@@ -22,7 +22,7 @@ this will add `package.json` file
 
 this will add the `tailwind.config.js`
 
-### Update tailwindcss
+## Update tailwindcss
 
 ```diff
   <head>
