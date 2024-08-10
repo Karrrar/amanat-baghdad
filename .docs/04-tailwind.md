@@ -31,8 +31,9 @@ yarn tailwindcss init
 In your `tailwind.config.js` file, add the paths to all of your template files so Tailwind can tree-shake unused styles in production.
 
 ```javascript
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
+  content: [],
   theme: {
     extend: {},
   },
@@ -61,10 +62,7 @@ If you prefer to use Tailwind CSS via a CDN, you can easily add it to your HTML 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind CSS Example</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet" />
   </head>
   <body class="bg-gray-100 text-gray-900">
     <header class="bg-white shadow">
