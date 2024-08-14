@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- First -->
+
+    <div>
+      <ul>
+        <li></li>
+      </ul>
+    </div>
+
+    <!-- Sibling: + -->
+    <!-- div+p+bq -->
+    <div></div>
+    <p></p>
+    <blockquote></blockquote>
+
+    <!-- Climb-up: ^ -->
+    <!-- div+div>p>span+em  -->
+
+    <div></div>
+    <div>
+      <p><span></span><em></em></p>
+    </div>
+
+    <!-- div+div>p>span+em^bq -->
+    <div></div>
+    <div>
+      <p><span></span><em></em></p>
+      <blockquote></blockquote>
+    </div>
+
+    <!-- div+div>p>span+em^^^bq -->
+    <div></div>
+    <div>
+      <p><span></span><em></em></p>
+    </div>
+    <blockquote></blockquote>
+
+    <!-- Multiplication: * -->
+    <!-- ul>li*5 -->
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+    <!-- Grouping: () -->
+    <!-- div>(header>ul>li*2>a)+footer>p -->
+    <div>
+      <header>
+        <ul>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+        </ul>
+      </header>
+      <footer>
+        <p></p>
+      </footer>
+    </div>
+
+    <!-- (div>dl>(dt+dd)*3)+footer>p -->
+    <div>
+      <dl>
+        <dt></dt>
+        <dd></dd>
+        <dt></dt>
+        <dd></dd>
+        <dt></dt>
+        <dd></dd>
+      </dl>
+    </div>
+    <footer>
+      <p></p>
+    </footer>
+
+    <!-- ID and Class -->
+    <!-- div#header+div.page+div#footer.class1.class2.class3 -->
+    <div id="header"></div>
+    <div class="page"></div>
+    <div id="footer" class="class1 class2 class3"></div>
+
+    <!-- Custom attributes -->
+    <!-- td[title="Hello word!" colspan=3] -->
+    <td title="Hello word!" colspan="3"></td>
+
+    <!-- Item numbering: $ -->
+    <!-- ul>li.item$*5 -->
+    <ul>
+      <li class="item1"></li>
+      <li class="item2"></li>
+      <li class="item3"></li>
+      <li class="item4"></li>
+      <li class="item5"></li>
+    </ul>
+
+    <!-- ul>li.item$$@-3*5 -->
+    <ul>
+      <li class="item07"></li>
+      <li class="item06"></li>
+      <li class="item05"></li>
+      <li class="item04"></li>
+      <li class="item03"></li>
+    </ul>
+
+    <!-- Text -->
+    <!-- a{Click me} -->
+    <a href="">Click me</a>
+
+    <!-- a{Click}+b{here} -->
+    <a href="">Click</a><b>here</b>
+    <!-- a>{Click}+b{here} -->
+    <a href="">Click<b>here</b></a>
+    <!-- p>{Click }+a{here}+{ to continue} -->
+    <p>Click <a href="">here</a> to continue</p>
+  </body>
+</html>

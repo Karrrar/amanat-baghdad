@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 5 - Forms</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-stone-500">
+    <div class="bg-white p-14 border">
+      <form action="#" class="">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">Form Elements</h2>
+
+        <!-- Text Input -->
+        <div>
+          <label for="text-input" class="block text-gray-700 font-medium mb-2"
+            >Text Input</label
+          >
+          <input
+            id="text-input"
+            type="text"
+            name="text-input"
+            value="Sample Text"
+            class="p-2 w-full mb-4 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-400 focus:outline-none"
+          />
+        </div>
+
+        <!-- Password Input -->
+        <div>
+          <label
+            for="password-input"
+            class="block text-gray-700 font-medium mb-2"
+            >Password Input</label
+          >
+          <input
+            id="password-input"
+            type="password"
+            name="password-input"
+            class="p-2 w-full mb-4 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-400 focus:outline-none"
+          />
+        </div>
+
+        <!-- Email Input -->
+        <div>
+          <label for="email-input" class="block text-gray-700 font-medium mb-2"
+            >Email Input</label
+          >
+          <input
+            id="email-input"
+            type="email"
+            name="email-input"
+            class="p-2 w-full mb-4 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-400 focus:outline-none"
+            placeholder="example@example.com"
+          />
+        </div>
+
+        <!-- Number Input -->
+        <div>
+          <label for="number-input" class="block text-gray-700 font-medium mb-2"
+            >Number Input</label
+          >
+          <input
+            id="number-input"
+            type="number"
+            name="number-input"
+            value="10"
+            class="p-2 w-full mb-4 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-400 focus:outline-none"
+          />
+        </div>
+
+        <!-- Date Input -->
+        <div>
+          <label for="date-input" class="block text-gray-700 font-medium mb-2"
+            >Date Input</label
+          >
+          <input
+            id="date-input"
+            type="date"
+            name="date-input"
+            class="p-2 w-full mb-4 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-400 focus:outline-none"
+          />
+        </div>
+
+        <!-- File Input -->
+        <div>
+          <label for="file-input" class="block text-gray-700 font-medium mb-2"
+            >File Input</label
+          >
+          <input
+            id="file-input"
+            type="file"
+            name="file-input"
+            class="p-2 w-full mb-4 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-400 focus:outline-none"
+          />
+        </div>
+
+        <!-- Checkbox Inputs -->
+        <div class="mb-4">
+          <label class="inline-flex items-center text-gray-700">
+            <input
+              type="checkbox"
+              name="checkbox-input-1"
+              class="form-checkbox h-5 w-5 text-indigo-600"
+            />
+            <span class="ml-2">Checkbox 1</span>
+          </label>
+          <br />
+          <label class="inline-flex items-center text-gray-700">
+            <input
+              type="checkbox"
+              name="checkbox-input-2"
+              class="form-checkbox h-5 w-5 text-indigo-600"
+            />
+            <span class="ml-2">Checkbox 2</span>
+          </label>
+          <br />
+          <label class="inline-flex items-center text-gray-700">
+            <input
+              type="checkbox"
+              name="checkbox-input-3"
+              class="form-checkbox h-5 w-5 text-indigo-600"
+            />
+            <span class="ml-2">Checkbox 3</span>
+          </label>
+        </div>
+
+        <!-- Radio Button Inputs -->
+        <div class="mb-4">
+          <label class="inline-flex items-center text-gray-700">
+            <input
+              type="radio"
+              name="radio-input"
+              value="option1"
+              class="form-radio h-5 w-5 text-indigo-600"
+            />
+            <span class="ml-2">Radio Option 1</span>
+          </label>
+          <br />
+          <label class="inline-flex items-center text-gray-700">
+            <input
+              type="radio"
+              name="radio-input"
+              value="option2"
+              class="form-radio h-5 w-5 text-indigo-600"
+            />
+            <span class="ml-2">Radio Option 2</span>
+          </label>
+          <br />
+          <label class="inline-flex items-center text-gray-700">
+            <input
+              type="radio"
+              name="radio-input"
+              value="option3"
+              class="form-radio h-5 w-5 text-indigo-600"
+            />
+            <span class="ml-2">Radio Option 3</span>
+          </label>
+        </div>
+
+        <!-- Range Input -->
+        <div>
+          <label for="range-input" class="block text-gray-700 font-medium mb-2"
+            >Range Input</label
+          >
+          <input
+            id="range-input"
+            type="range"
+            name="range-input"
+            class="form-range w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer mb-4"
+          />
+        </div>
+
+        <!-- Color Input -->
+        <div>
+          <label for="color-input" class="block text-gray-700 font-medium mb-2"
+            >Color Input</label
+          >
+          <input
+            id="color-input"
+            type="color"
+            name="color-input"
+            value="#563d7c"
+            class="p-2 w-full h-10 mb-4 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-400 focus:outline-none"
+          />
+        </div>
+
+        <!-- Search Input -->
+        <div>
+          <label for="search-input" class="block text-gray-700 font-medium mb-2"
+            >Search Input</label
+          >
+          <input
+            id="search-input"
+            type="search"
+            name="search-input"
+            class="p-2 w-full mb-4 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-400 focus:outline-none"
+            placeholder="Search..."
+          />
+        </div>
+
+        <!-- URL Input -->
+        <div>
+          <label for="url-input" class="block text-gray-700 font-medium mb-2"
+            >URL Input</label
+          >
+          <input
+            id="url-input"
+            type="url"
+            name="url-input"
+            class="p-2 w-full mb-4 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-400 focus:outline-none"
+            placeholder="https://example.com"
+          />
+        </div>
+
+        <!-- Textarea -->
+        <div>
+          <label
+            for="textarea-input"
+            class="block text-gray-700 font-medium mb-2"
+            >Textarea</label
+          >
+          <textarea
+            id="textarea-input"
+            name="textarea-input"
+            class="p-2 w-full mb-4 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-400 focus:outline-none"
+            rows="4"
+            placeholder="Enter your message"
+          ></textarea>
+        </div>
+
+        <!-- Select Dropdown -->
+        <div>
+          <label for="select-input" class="block text-gray-700 font-medium mb-2"
+            >Select Input</label
+          >
+          <select
+            id="select-input"
+            name="select-input"
+            class="p-2 w-full mb-4 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-400 focus:outline-none"
+          >
+            <option value="">Select an option</option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+          </select>
+        </div>
+
+        <!-- Submit and Reset Buttons -->
+        <div class="flex space-x-4">
+          <button
+            type="submit"
+            class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-500 focus:outline-none"
+          >
+            Submit
+          </button>
+          <button
+            type="reset"
+            class="bg-gray-600 text-white py-2 px-4 rounded-md hover:bg-gray-500 focus:outline-none"
+          >
+            Reset
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
