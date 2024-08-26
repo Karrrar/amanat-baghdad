@@ -8,6 +8,7 @@
 
 - [Website](https://www.typescriptlang.org/)
 - [Documentation](https://www.typescriptlang.org/docs/)
+- [Playground](https://www.typescriptlang.org/play)
 - [Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
 
 ### Next.js
