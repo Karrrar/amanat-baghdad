@@ -30,7 +30,7 @@
 
 ---
 
-#### Day Four (Sunday, August 11, 2024)
+#### Day Four (Sunday, August 12, 2024)
 
 - Recap (10min)
 - Create and initiate the project (20min)
@@ -38,6 +38,40 @@
 - Forms and tailwind (40min)
 - Work (60min)
 - What Next (20min)
+
+---
+
+#### Day five (Monday, August 15, 2024)
+
+- Recap (10min)
+- Introduction to Next.js(50min)
+- JSX/TSX (40min)
+- tailwind and Next.js (30)
+- Navigation (30)
+
+---
+
+#### Day six (Sunday, August 11, 2024)
+
+---
+
+#### Day seven (Monday, August 26, 2024)
+
+- Recap (10min)
+- Introduction to typescript (15min)
+- functions in typescript
+  - arrow function
+  - parameters
+- Promises
+  - await and async
+- variables
+  - const
+  - let
+  - var
+
+#### Day eight (Wednesday, August 28, 2024)
+
+- Recap (10min)
 
 ---
 
