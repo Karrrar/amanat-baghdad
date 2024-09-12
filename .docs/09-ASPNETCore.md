@@ -20,7 +20,9 @@ To create an ASP.NET Core Web API project using the **command line**, follow the
 1.  **Open a terminal** (Command Prompt, PowerShell, or bash) and run the following command:
 
     ```bash
+    dotnet new sln
     dotnet new webapi -n MyWebApi -controllers
+    dotnet sln add ./MyWebApi
     ```
 
     - `-n MyWebApi`: Specifies the project name as `MyWebApi`.
