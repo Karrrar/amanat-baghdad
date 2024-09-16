@@ -16,6 +16,15 @@
 - [Website](https://nextjs.org/)
 - [Decantation](https://nextjs.org/docs)
 
-### Chacoch
+### .NET
 
-- [Github](https://github.com/karrrar/chacoch)
+- [.NET](https://dotnet.microsoft.com/en-us/)
+
+### Entity Framework Core (ef)
+
+- [Database Providers](https://learn.microsoft.com/en-us/ef/core/providers/)
+
+### Projects
+
+- [Chacoch](https://github.com/karrrar/chacoch)
+- [Cars Services](https://github.com/karrrar/CarsServices)
